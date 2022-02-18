@@ -7,7 +7,7 @@ Scripts:
 - square.py: Moves the turtlebot in square configuration
 - move_brake.py: Moves the turtlebot in a straight line until the laser scanner detects an obstacle (wall) and then it stops
 
-launch files:
+Launch Files:
 
 - move.launch: 
 	- to run this file there are two script options (if no 'code' is assigned, runs circle.py by default):
@@ -16,6 +16,7 @@ roslaunch assignment3_turtlebot3 move.launch code:=circle.py	# if you want to ru
 roslaunch assignment3_turtlebot3 move.launch code:=square.py	# if you want to run the square.py script
 ```
 
-b) move_brake.launch: 
+- move_brake.launch: 
+	```
 	roslaunch assignment3_turtlebot3 move_brake.launch
-	
+	```
