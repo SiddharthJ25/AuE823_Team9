@@ -14,10 +14,10 @@
               - move.launch :- launch file to move the turtlebot3 with scritps circle.py or square.py
               - move_brake.launch :- launch file to move the turtlebot3 in a straight line until it detects an obstacle
           - worlds
-              lab4_turtlebot3   # copy to the worlds folder in your gazebo path
-              turtlebot3_wall   # copy to the worlds folder in your gazebo path
-              lab4_turtlebot3.world   # copy to the worlds folder in your gazebo path
-              turtlebot3_wall.world   # copy to the worlds folder in your gazebo path
+              - lab4_turtlebot3   # copy to the worlds folder in your gazebo path
+              - turtlebot3_wall   # copy to the worlds folder in your gazebo path
+              - lab4_turtlebot3.world   # copy to the worlds folder in your gazebo path
+              - turtlebot3_wall.world   # copy to the worlds folder in your gazebo path
           
           - videos
             - Turtlebot3_brake
