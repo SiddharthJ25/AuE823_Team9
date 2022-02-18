@@ -20,6 +20,6 @@
               - turtlebot3_wall.world   # copy to the worlds folder in your gazebo path
           
           - videos
-            - Turtlebot3_brake
-            - Turtlebot3_circle
-            - Turtlebot3_square
+            - Turtlebot3_brake.mp4
+            - Turtlebot3_circle.mp4
+            - Turtlebot3_square.mp4
