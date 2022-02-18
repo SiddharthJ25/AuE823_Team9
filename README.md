@@ -1,6 +1,6 @@
 # AuE823_Team9
 ## File System
-  1) **catkin_ws**
+  **catkin_ws**
       - build
       - devel
       - src
