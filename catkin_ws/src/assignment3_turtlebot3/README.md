@@ -9,9 +9,12 @@ c) move_brake.py: Moves the turtlebot in a straight line until the laser scanner
 
 launch files:
 
-a) move.launch: to run this file there are two script options (if no 'code' is assigned, runs circle.py by default):
-	roslaunch assignment3_turtlebot3 move.launch code:=circle.py	# if you want to run the circle.py script
-	roslaunch assignment3_turtlebot3 move.launch code:=square.py	# if you want to run the square.py script
+a) move.launch: 
+- to run this file there are two script options (if no 'code' is assigned, runs circle.py by default):
+'''
+roslaunch assignment3_turtlebot3 move.launch code:=circle.py	# if you want to run the circle.py script
+roslaunch assignment3_turtlebot3 move.launch code:=square.py	# if you want to run the square.py script
+'''
 
 b) move_brake.launch: 
 	roslaunch assignment3_turtlebot3 move_brake.launch
