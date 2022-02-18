@@ -4,9 +4,9 @@ To be able to use these launch files: find the 'worlds' folder in the 'assignmen
 
 Scripts:
 
-- circle.py: This scripts moves the turtlebot in a circular configuration.
-- square.py: Moves the turtlebot in square configuration
-- move_brake.py: Moves the turtlebot in a straight line until the laser scanner detects an obstacle (wall) and then it stops
+- *circle.py* :- This scripts moves the turtlebot in a circular configuration.
+- *square.py* :- Moves the turtlebot in square configuration
+- *move_brake.py* :- Moves the turtlebot in a straight line until the laser scanner detects an obstacle (wall) and then it stops
 
 Launch Files (Copy+Paste the commands in the terminal):
 
