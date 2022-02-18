@@ -1,4 +1,4 @@
-This is a ROS package for turtlebot3 navigation in gazebo.
+This is a ROS package for turtlebot3 navigation in gazebo. <br />
 To be able to use these launch files: find the 'worlds' folder in the 'assignment3_turtlebot3' package folder and copy its contents to the worlds folder in your gazebo path
 
 Scripts:
@@ -7,7 +7,7 @@ Scripts:
 - square.py: Moves the turtlebot in square configuration
 - move_brake.py: Moves the turtlebot in a straight line until the laser scanner detects an obstacle (wall) and then it stops
 
-Launch Files:
+Launch Files (Copy+Paste the commands in the terminal):
 
 - move.launch: 
 	- to run this file there are two script options (if no 'code' is assigned, runs circle.py by default):
