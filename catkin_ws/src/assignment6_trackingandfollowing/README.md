@@ -17,11 +17,11 @@ This is the submission for assignment 6 "Tracking and following"
 ### Execution:
 **Line follower simulation:**
 - Launching the gazebo environment:
-	>roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch
+	>$roslaunch assignment6_trackingandfollowing turtlebot3_follow_line.launch
 
 	![github image](https://github.com/sid25j/AuE823_Team9/blob/main/catkin_ws/src/assignment6_trackingandfollowing/src/videos/images/roslaunch_gazebo.PNG)
 
 - Running the line following script:
-	>rosrun assignment6_trackingandfollowing follow_line_step_hsv.py
+	>$rosrun assignment6_trackingandfollowing follow_line_step_hsv.py
 
 	![github image](https://github.com/sid25j/AuE823_Team9/blob/main/catkin_ws/src/assignment6_trackingandfollowing/src/videos/images/sim_execution.PNG)
