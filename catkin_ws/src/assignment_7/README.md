@@ -22,8 +22,8 @@ This is the submission for the 7th assignment
     >Contains two xacro files (*turtlebot3_burger.gazebo.xacro & turtlebot3_burger.urdf.xacro) should be placed in /opt/ros/noetic/share/turtlebot3_description/urdf/ 
 
     **To use the hokuyo lidar in simulation, edit the "turtlebot3_burger.gazebo.xacro" with a value of "1" for argument "is_using_hokuyo"**  
-    > Example: <xacro:arg name="is_using_hokuyo" default="0"/>  # for using lds lidar  
-               <xacro:arg name="is_using_hokuyo" default="1"/>  # for using hokuyo lidar
+    > Example 1: <xacro:arg name="is_using_hokuyo" default="0"/>  # for using lds lidar  
+      Example 1: <xacro:arg name="is_using_hokuyo" default="1"/>  # for using hokuyo lidar
     
 ### Execution:
 **SLAM simulation:**
