@@ -14,9 +14,9 @@ This is the submission for the 7th assignment
     
 - **maps**
     >*map2.pgm*: map generated using hokuyo lidar
-    ![github image]()
+    ![github image](https://github.com/sid25j/AuE823_Team9/blob/main/catkin_ws/src/assignment_7/images/hokuyo.png)  
     >*map1.pgm*: map generated using lds lidar
-    ![github image]()
+    ![github image](https://github.com/sid25j/AuE823_Team9/blob/main/catkin_ws/src/assignment_7/images/lds.png)
     
 - **xacro_files:**
     >Contains two xacro files (*turtlebot3_burger.gazebo.xacro & turtlebot3_burger.urdf.xacro) should be placed in /opt/ros/noetic/share/turtlebot3_description/urdf/ 
@@ -27,7 +27,7 @@ This is the submission for the 7th assignment
   > $ roslaunch assignment_7 turtlebot3_slam_navigation.launch
   
   - Saving the map:
-  > $ rosrun map_server map_saver -f (file location)/(file name)
+  > $ rosrun map_server map_saver -f (file location)/(file name)  
   example: $ rosrun map_server map_saver -f /home/sachetk/slam_maps_assignment_7/map2
 
 
