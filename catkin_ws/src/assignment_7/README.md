@@ -20,6 +20,10 @@ This is the submission for the 7th assignment
     
 - **xacro_files:**
     >Contains two xacro files (*turtlebot3_burger.gazebo.xacro & turtlebot3_burger.urdf.xacro) should be placed in /opt/ros/noetic/share/turtlebot3_description/urdf/ 
+
+    **To use the hokuyo lidar in simulation, edit the "turtlebot3_burger.gazebo.xacro" with a value of "1" for argument "is_using_hokuyo"**  
+    > Example: <xacro:arg name="is_using_hokuyo" default="0"/>  # for using lds lidar
+               <xacro:arg name="is_using_hokuyo" default="1"/>  # for using hokuyo lidar
     
 ### Execution:
 **SLAM simulation:**
@@ -28,6 +32,6 @@ This is the submission for the 7th assignment
   
   - Saving the map:
   > $ rosrun map_server map_saver -f (file location)/(file name)  
-  example: $ rosrun map_server map_saver -f /home/sachetk/slam_maps_assignment_7/map2
+  Example: $ rosrun map_server map_saver -f /home/sachetk/slam_maps_assignment_7/map2
 
 
